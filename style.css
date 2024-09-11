@@ -28,6 +28,7 @@ body>*{
   font-family: 'Baskervville SC', Arial, Helvetica, sans-serif;
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 20px;
 }
 .input{
   width: 75%;
@@ -39,7 +40,7 @@ body>*{
   color: black;
   margin-left: 30px;
   font-size: 1.2rem;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   margin-top: 15px;
 }
 .input:focus{
@@ -54,6 +55,7 @@ input::placeholder{
   align-self: center;
   margin-left: 60px;
   margin-top: 10px;
+  margin-bottom: 20px;
   width: 60%;
   font-size: 1.2rem;
   padding: 10px;
@@ -71,7 +73,7 @@ input::placeholder{
   padding: 15px;
   font-size: 1.2rem;
   margin-top: 80px;
-  margin-left: 60px;
+  margin-left: 100px;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -79,11 +81,13 @@ input::placeholder{
   background-color: rgb(180, 138, 142);
   color: white;
 }
-.totalAmount {
+.jsTotal {
   font-family: 'Baskervville SC', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .expense-list{

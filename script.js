@@ -5,7 +5,12 @@ const calculateButton = document.querySelector('.js-calculate');
 const totalElement = document.querySelector('.jsTotal');
 const displayElement = document.querySelector('.expense-list');
 
-let expenses = [];
+let expenses = JSON.parse(localStorage.getItem('expenses')) || [];
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateExpenseList();
+  getTotalAmount();
+});
 
 calculateButton.addEventListener('click', function () {
   let expenseName = expenseElement.value;
@@ -23,6 +28,8 @@ calculateButton.addEventListener('click', function () {
     category: category,
   };
   expenses.push(expense);
+  
+  localStorage.setItem('expenses', JSON.stringify(expenses));
 
   getTotalAmount();
   updateExpenseList();
