@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F7C5CC;
+  font-family: 'SUSE', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.6 rem;
+}
+body>*{
+  margin-bottom: 10px;
+}
+.main-container{
+  margin: auto;
+  margin-top: 100px;
+  max-width: 400px;
+  height: 600px;
+  border: none;
+  box-shadow: 4px 4px 15px rgb(78, 71, 71);
+}
+.h1{
+  font-family: 'Baskervville SC', Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.input{
+  width: 75%;
+  padding: 10px;
+  border: none;
+  box-shadow: 4px 4px 15px rgb(78, 71, 71);
+  border-radius: 20px;
+  text-align: right;
+  color: black;
+  margin-left: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.input:focus{
+  border: none;
+  
+}
+input::placeholder{
+  color: black;;
+  opacity: 1;
+}
+.drp-dwn-menu{
+  align-self: center;
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 60%;
+  font-size: 1.2rem;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 4px 4px 15px rgb(78, 71, 71);
+  border-radius: 20px;
+}
+.calculate-button{
+  background-color: #F7C5CC;
+  width: 70%;
+  border-radius: 60px;
+  border: none;
+  box-shadow: 4px 4px 15px rgb(78, 71, 71);
+  padding: 15px;
+  font-size: 1.2rem;
+  margin-top: 80px;
+  margin-left: 60px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.calculate-button:hover{
+  background-color: rgb(180, 138, 142);
+  color: white;
+}
+.totalAmount {
+  font-family: 'Baskervville SC', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.expense-list{
+  font-family: 'Baskervville SC', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}

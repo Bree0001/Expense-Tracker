@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bree's Expense Tracker</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="h1">Bree's Expense Tracker</h1>
+      <input
+        type="text"
+        placeholder="Write Expense"
+        class="input js-input-expense"
+      />
+      <br />
+      <input type="number" placeholder="Amount" class="input js-input-amount" />
+      <br />
+      <select class="drp-dwn-menu js-select-category">
+        <option value="" disabled selected>Select Your Option</option>
+        <option value="Need">Need</option>
+        <option value="Want">Want</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+      </select>
+      <br />
+      <button class="calculate-button js-calculate">Calculate</button>
+    <div class="jsTotal">Total:$0</div>
+    <div class="expense-list"></div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
