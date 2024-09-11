@@ -47,3 +47,4 @@ function updateExpenseList() {
   });
   displayElement.innerHTML = expenseListHTML;  
 }
+
